@@ -15,7 +15,7 @@ def points_tables():
     distribution = int(input('Quel est le type de distribution souhaitée, linéaire ou non-uniforme ? '
                              'Entrez 1 ou 2 : '))
 
-    pos_epaisseur_max = t * corde
+
 
     if distribution == 1:
         nom_distrib = 'linéaire'
@@ -35,6 +35,10 @@ def points_tables():
     y_up = yt * corde
     y_down = -y_up.copy()
 
+    pos_epaisseur_max = np.argmax(y_up)
+    print('L épaisseur maximale se trouve à x = ', x_up[pos_epaisseur_max], 'm')
+    print('l épaisseur max est ', 2 * y_up[pos_epaisseur_max], 'm')
+
     plt.plot(x_up, y_up, label='Extrados')
     plt.plot(x_down,y_down, label='Intrados')
     plt.xlabel('x')
@@ -44,6 +48,8 @@ def points_tables():
     plt.ylim(-0.2*corde, 0.2*corde)
     plt.grid(True)
     plt.show()
+
+
 
 
 if __name__ == '__main__':
