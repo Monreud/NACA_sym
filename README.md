@@ -3,6 +3,7 @@
 - Le script du devoir 
 - Ce fichier README.md
 ## Utilisation du script
+Pour lancer le script (pycharm), simplement le run, le main va lancer la fonction.
 Au lancement du script, on demande à l'utilisateur de saisir 4 informations :
 - Les 4 chiffres du profil NACA symétriques (donc doit commencer par '00')
 - La corde (traitée en mètres) du profil
