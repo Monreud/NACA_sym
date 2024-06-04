@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34160924-0893-4667-9621-3260a24bdbbd" name="Changes" comment="V2&#10;Rajout du display de la position de l'épaisseur maximale&#10;Manque toujours les commentaires et le chapeau">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NACA_sym.py" beforeDir="false" afterPath="$PROJECT_DIR$/NACA_sym.py" afterDir="false" />
-    </list>
+    <list default="true" id="34160924-0893-4667-9621-3260a24bdbbd" name="Changes" comment="V3&#10;Commentaires et affichages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,12 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716936403868</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V3&#10;Commentaires et affichages">
+      <option name="closed" value="true" />
+      <created>1717526707106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717526707106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1&#10;Contient la fonction principale qui prend les entrées et plot les courbes.&#10;Manque les commentaires, le chapeau et le display des résultats" />
     <MESSAGE value="V2&#10;Rajout du display de la position de l'épaisseur maximale&#10;Manque toujours les commentaires et le chapeau" />
-    <option name="LAST_COMMIT_MESSAGE" value="V2&#10;Rajout du display de la position de l'épaisseur maximale&#10;Manque toujours les commentaires et le chapeau" />
+    <MESSAGE value="V3&#10;Commentaires et affichages" />
+    <option name="LAST_COMMIT_MESSAGE" value="V3&#10;Commentaires et affichages" />
   </component>
 </project>
