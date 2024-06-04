@@ -65,7 +65,7 @@ def points_tables():
     plt.annotate('Épaisseur maximale du profil', (x_epais_max, y_epais_max))
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.title(f'Profil NACA00{t*100} - Distribution {nom_distrib}')
+    plt.title(f'Profil NACA00{int(t*100)} - Distribution {nom_distrib}')
 
     # Mise à l'échelle de la courbe
     plt.axis('equal')
